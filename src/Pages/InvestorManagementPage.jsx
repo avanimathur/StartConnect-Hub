@@ -12,6 +12,8 @@ const InvestorManagementPage = () => {
     With our platform, entrepreneurs can bring their visions to life and take their businesses to new heights.
     </section>
 
+    <NavLink to="/StartUps"><Button className="view-statups">View Startups</Button></NavLink>
+
     <h2 className='sub-heading'>
     Why Choose StartConnectHub?
     </h2>
