@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components';
 import './startup.css'
 import { NavLink } from 'react-router-dom';
+import StartUps from './startUps';
+
 const InvestorManagementPage = () => {
   return (
     <ManagementPageWrapper>
@@ -12,8 +14,6 @@ const InvestorManagementPage = () => {
     We understand the challenges that startups face, from securing funding to navigating the complexities of the business world. 
     With our platform, entrepreneurs can bring their visions to life and take their businesses to new heights.
     </section>
-
-    <a href="./Pages/StarUps.jsx"><Button className="view-statups">View Startups</Button></a>
 
     <h2 className='sub-heading'>
     Why Choose StartConnectHub?

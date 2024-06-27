@@ -82,6 +82,7 @@ const App = () => {
               <Route path='/financialservicesPage' element={<FinancialServices />} />
               <Route path="/fullservicefund" element={<FullServiceFund />} />
               <Route path='/feedback' element={<FeedbackPage />} />
+              <Route path='/StartUps' element={<StartUps />} />
               <Route path="*" element={<Notfound />} />
             </Routes>
             <ChatAssistant />

@@ -1,5 +1,6 @@
 import React from 'react';
 import './slider.css';
+import InvestorManagementPage from './InvestorManagementPage';
 
 const StartUps = () => {
     return (
