@@ -79,7 +79,6 @@ const App = () => {
               <Route path='/visionandmission' element={<VisionAndMission />} />
               <Route path='/howitworks' element={<HowItWorks />} />
               <Route path='/investormanagementpage' element={<InvestorManagementPage />} />
-              <Route path='/StartUps' element={<StartUps />} />
               <Route path='/financialservicesPage' element={<FinancialServices />} />
               <Route path="/fullservicefund" element={<FullServiceFund />} />
               <Route path='/feedback' element={<FeedbackPage />} />
