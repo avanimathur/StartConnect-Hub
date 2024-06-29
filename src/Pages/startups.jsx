@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Startups = () => {
+const startups = () => {
   return (
     <Wrapper className='wrapper'>
       <i id='left' className='fa-solid fas fa-angle-left'></i>
@@ -185,4 +185,4 @@ const Wrapper = styled.div`
   }
 `;
 
-export default Startups;
+export default startups;
