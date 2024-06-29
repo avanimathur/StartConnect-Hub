@@ -78,10 +78,10 @@
   .button-container {
     margin-top: auto;
     display: flex;
-    justify-content:center
+    justify-content:center ;
   }
 .btn{
-  background-color: rgb(206 152 206)
+  background-color: rgb(206 152 206) ;
 }
 .btn:hover{
     color:rgb(17, 1, 1);

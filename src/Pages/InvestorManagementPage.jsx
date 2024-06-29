@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import './Explore.css'; 
 
 const InvestorManagementPage = () => {
   return (
@@ -93,6 +92,11 @@ line-height: 1.6;
 }
 .button:hover{
     background-color:#464e57;
+}
+.button-container {
+    margin-top: auto;
+    display: flex;
+    justify-content:center
 }
 img{
     background:transparent;
