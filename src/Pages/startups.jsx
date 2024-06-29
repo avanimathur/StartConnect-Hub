@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components';
+import 'path/to/font-awesome/css/font-awesome.min.css';
 
 const startups = () => {
   return (
