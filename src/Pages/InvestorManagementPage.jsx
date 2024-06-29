@@ -15,7 +15,7 @@ const InvestorManagementPage = () => {
 
     <div className="button-container">
         <NavLink to="/startups">
-            <Button className="button-container" variant="primary">
+            <Button className="button-container">
                 View StartUps
                 </Button>
         </NavLink>
