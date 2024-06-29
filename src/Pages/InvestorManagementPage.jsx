@@ -13,13 +13,9 @@ const InvestorManagementPage = () => {
     With our platform, entrepreneurs can bring their visions to life and take their businesses to new heights.
     </section>
 
-    <div className="button-container">
-        <NavLink to="/startups">
-            <Button className="button-container">
-                View StartUps
-                </Button>
-        </NavLink>
-    </div>
+    <a href="/startups">
+    <button className = "button-container">View StartUps</button>
+    </a>
 
     <h2 className='sub-heading'>
     Why Choose StartConnectHub?
@@ -94,7 +90,7 @@ line-height: 1.6;
     background-color:#464e57;
 }
 .button-container {
-    margin-top: auto;
+    background: rgb(206, 152, 206);
     display: flex;
     justify-content:center
 }
